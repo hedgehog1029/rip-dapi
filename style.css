@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background: url(/background.jpg);
+    color: #fff;
+}
+
+img {
+    filter: grayscale(100%);
+    width: 256px;
+    height: 256px;
+}
+
+.container {
+    visibility: hidden;
+    animation: fadein 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
