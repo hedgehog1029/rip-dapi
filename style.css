@@ -16,6 +16,18 @@ img {
     animation-fill-mode: forwards;
 }
 
+a#audio-btn {
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+a#audio-btn:hover {
+    color: #ccc;
+}
+
 @keyframes fadein {
     0% {
         opacity: 0;
